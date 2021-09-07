@@ -18,5 +18,5 @@ MongoClient.connect(url, function (err, db) {
         }
         console.log("1 docuemnt inserted");
         db.close();
-    })
+    });
 });
